@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Karhoo Application Test Automation Test Suite">
+	<test name="Karhoo Application Regession Test cases">
+		<classes>
+			<class name="com.karhoo.qa.testcases.KarhooTeamPageTest"/>
+		</classes>
+	</test>
+</suite>

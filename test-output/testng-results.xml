@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12201" started-at="2019-01-04T22:30:29Z" finished-at="2019-01-04T22:30:41Z">
+  <suite name="Karhoo Application Test Automation Test Suite" duration-ms="13263" started-at="2019-01-04T23:03:24Z" finished-at="2019-01-04T23:03:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12201" started-at="2019-01-04T22:30:29Z" finished-at="2019-01-04T22:30:41Z">
+    <test name="Karhoo Application Regession Test cases" duration-ms="13263" started-at="2019-01-04T23:03:24Z" finished-at="2019-01-04T23:03:38Z">
       <class name="com.karhoo.qa.testcases.KarhooTeamPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.karhoo.qa.testcases.KarhooTeamPageTest@475530b9]" name="setUp" is-config="true" duration-ms="6689" started-at="2019-01-04T22:30:29Z" finished-at="2019-01-04T22:30:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.karhoo.qa.testcases.KarhooTeamPageTest@2b98378d]" name="setUp" is-config="true" duration-ms="7851" started-at="2019-01-04T23:03:25Z" finished-at="2019-01-04T23:03:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="applyTest()[pri:0, instance:com.karhoo.qa.testcases.KarhooTeamPageTest@475530b9]" name="applyTest" duration-ms="4550" started-at="2019-01-04T22:30:36Z" finished-at="2019-01-04T22:30:40Z">
+        <test-method status="PASS" signature="applyTest()[pri:0, instance:com.karhoo.qa.testcases.KarhooTeamPageTest@2b98378d]" name="applyTest" duration-ms="4633" started-at="2019-01-04T23:03:32Z" finished-at="2019-01-04T23:03:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.karhoo.qa.testcases.KarhooTeamPageTest@475530b9]" name="tearDown" is-config="true" duration-ms="937" started-at="2019-01-04T22:30:40Z" finished-at="2019-01-04T22:30:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.karhoo.qa.testcases.KarhooTeamPageTest@2b98378d]" name="tearDown" is-config="true" duration-ms="753" started-at="2019-01-04T23:03:37Z" finished-at="2019-01-04T23:03:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.karhoo.qa.testcases.KarhooTeamPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Karhoo Application Regession Test cases -->
+  </suite> <!-- Karhoo Application Test Automation Test Suite -->
 </testng-results>
