@@ -1,10 +1,13 @@
 package com.karhoo.qa.pages;
 
+import java.util.Set;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.karhoo.qa.base.TestBase;
+import com.karhoo.qa.util.TestUtil;
 
 public class KarhooTeamPage extends TestBase{
 	
@@ -12,7 +15,7 @@ public class KarhooTeamPage extends TestBase{
 	KarhooTeamPage karhooTeamPage;
 	BamboohrVacPage bamboohrVacPage;
 	
-	@FindBy(xpath = "//a[contains(text(),'Sign Up')]")
+	@FindBy(xpath = "//html/body/main/div[4]/div/div/div/div/div[2]/a")
 	WebElement applyBtn;
 	
 	
@@ -25,10 +28,11 @@ public class KarhooTeamPage extends TestBase{
 	}
 	
 	public String clickApply() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(3000);
+		TestUtil.scrollPageDown(driver);
 		applyBtn.click();
-		String winHandleBefore = driver.getWindowHandle();
-		for(String winHandle : driver.getWindowHandles()){
+		Set <String> winSet = driver.getWindowHandles();
+		for(String winHandle : winSet){
 		    driver.switchTo().window(winHandle);
 		}
 		 
@@ -37,3 +41,4 @@ public class KarhooTeamPage extends TestBase{
 	}
 
 }
+	
